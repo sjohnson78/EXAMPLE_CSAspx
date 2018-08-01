@@ -35,15 +35,23 @@ namespace Northwind.Data.Entities
         //       annotation parameter; where n is 1, 2, 3, etc. (physical
         //       order of sql attributes)
 
+        //validation can be done on your individual property of your entity
         [Key]
         public int ProductID { get; set; }
+        [Required(ErrorMessage ="Product name is required")]
+        [StringLength(40,ErrorMessage ="Product name is limited to 40 characters")]
         public string ProductName { get; set; }
         public int? SupplierID { get; set; } //foreign key
         public int? CategoryID { get; set; } //foreign key
+        [StringLength(20,ErrorMessage ="Quantity per Unit is limited to 20 characters")]
         public string QuantityPerUnit { get; set; }
+        [Range(0.00,double.MaxValue,ErrorMessage ="Invalid price.")]
         public decimal? UnitPrice { get; set; }
+        [Range(0.0, double.MaxValue, ErrorMessage = "Invalid units in stock.")]
         public Int16? UnitsInStock { get; set; }
+        [Range(0.0, double.MaxValue, ErrorMessage = "Invalid units on order.")]
         public Int16? UnitsOnOrder { get; set; }
+        [Range(0.0, double.MaxValue, ErrorMessage = "Invalid reorder level.")]
         public Int16? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
 
