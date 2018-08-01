@@ -25,7 +25,7 @@ namespace NorthwindSystem.DAL
         // we need to pass the database connection to the EntityFramework
         //     DbContext class via the :base("xxxx") parameter
         // this is done via the NortwindContext constructor
-        public NorthwindContext():base("NWBD")
+        public NorthwindContext():base("NWDB")
         {
 
         }
@@ -35,5 +35,7 @@ namespace NorthwindSystem.DAL
         // this is done by using the EntityFramework datatype DbSet<T>
         //     where <T> is the data defintion class
         public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
     }
 }
