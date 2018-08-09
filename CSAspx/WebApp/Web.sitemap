@@ -3,9 +3,11 @@
   <siteMapNode url="" title="root"  description="">
     <siteMapNode url="~/Default.aspx" title="Home"  description="" />
     <siteMapNode url="" title="Samples" description="">
-      <siteMapNode url="~/SamplePages/Query.aspx" title="Pkey Query"
+      <siteMapNode url="~/SamplePages/CRUD.aspx" title="Product CRUD"
                     description="" />
-     <siteMapNode url="~/SamplePages/FilterSearches.aspx" title="Searches"
+      <siteMapNode url="~/SamplePages/FilterSearches.aspx" title="Searches"
+                    description="" />
+      <siteMapNode url="~/SamplePages/CRUDFilterSearch.aspx" title="Filters on CRUD"
                     description="" />
     </siteMapNode>
     <siteMapNode url="~/About.aspx" title="About"  description="" />

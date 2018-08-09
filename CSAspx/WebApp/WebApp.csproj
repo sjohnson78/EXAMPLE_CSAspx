@@ -152,8 +152,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="images\InstallClassDesigner.PNG" />
+    <Content Include="SamplePages\CRUDFilterSearch.aspx" />
     <Content Include="SamplePages\FilterSearches.aspx" />
-    <Content Include="SamplePages\Query.aspx" />
+    <Content Include="SamplePages\CRUD.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -222,6 +224,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SamplePages\CRUDFilterSearch.aspx.cs">
+      <DependentUpon>CRUDFilterSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\CRUDFilterSearch.aspx.designer.cs">
+      <DependentUpon>CRUDFilterSearch.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SamplePages\FilterSearches.aspx.cs">
       <DependentUpon>FilterSearches.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,12 +238,12 @@
     <Compile Include="SamplePages\FilterSearches.aspx.designer.cs">
       <DependentUpon>FilterSearches.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Query.aspx.cs">
-      <DependentUpon>Query.aspx</DependentUpon>
+    <Compile Include="SamplePages\CRUD.aspx.cs">
+      <DependentUpon>CRUD.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SamplePages\Query.aspx.designer.cs">
-      <DependentUpon>Query.aspx</DependentUpon>
+    <Compile Include="SamplePages\CRUD.aspx.designer.cs">
+      <DependentUpon>CRUD.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
