@@ -5,6 +5,8 @@
     <siteMapNode url="" title="Samples" description="">
       <siteMapNode url="~/SamplePages/Query.aspx" title="Pkey Query"
                     description="" />
+     <siteMapNode url="~/SamplePages/FilterSearches.aspx" title="Searches"
+                    description="" />
     </siteMapNode>
     <siteMapNode url="~/About.aspx" title="About"  description="" />
     <siteMapNode url="~/Contact.aspx" title="Contact"  description="" />
