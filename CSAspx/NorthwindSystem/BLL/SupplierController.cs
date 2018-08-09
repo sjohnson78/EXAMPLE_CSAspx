@@ -10,12 +10,15 @@ using Northwind.Data.Entities;
 using Northwind.Data.Views;
 using NorthwindSystem.DAL;
 using System.Data.SqlClient;
+using System.ComponentModel;
 #endregion
 
 namespace NorthwindSystem.BLL
 {
+    [DataObject]
     public class SupplierController
     {
+        [DataObjectMethod(DataObjectMethodType.Select,false)]
         public List<Supplier> Suppliers_List()
         {
             using (var context = new NorthwindContext())

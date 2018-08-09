@@ -9,6 +9,8 @@
                     description="" />
       <siteMapNode url="~/SamplePages/CRUDFilterSearch.aspx" title="Filters on CRUD"
                     description="" />
+      <siteMapNode url="~/SamplePages/MultiRecordODS.aspx" title="Using ODS"
+                    description="" />
     </siteMapNode>
     <siteMapNode url="~/About.aspx" title="About"  description="" />
     <siteMapNode url="~/Contact.aspx" title="Contact"  description="" />

@@ -152,10 +152,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="images\EntitiesViews.PNG" />
     <Content Include="images\InstallClassDesigner.PNG" />
     <Content Include="SamplePages\CRUDFilterSearch.aspx" />
     <Content Include="SamplePages\FilterSearches.aspx" />
     <Content Include="SamplePages\CRUD.aspx" />
+    <Content Include="SamplePages\MultiRecordODS.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -244,6 +246,13 @@
     </Compile>
     <Compile Include="SamplePages\CRUD.aspx.designer.cs">
       <DependentUpon>CRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SamplePages\MultiRecordODS.aspx.cs">
+      <DependentUpon>MultiRecordODS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SamplePages\MultiRecordODS.aspx.designer.cs">
+      <DependentUpon>MultiRecordODS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Northwind.Data.Entities;
 using NorthwindSystem.DAL;
 using System.Data.SqlClient;
+using System.ComponentModel;
 #endregion
 
 namespace NorthwindSystem.BLL
@@ -17,6 +18,7 @@ namespace NorthwindSystem.BLL
     //this is the public interface class that will handle
     //  web page service requests for data to the Product sql table
     //Methods in this class can interact with the internal DAL Context class
+    [DataObject]
     public class ProductController
     {
         //this method will return all records from the sql table Products
@@ -137,7 +139,7 @@ namespace NorthwindSystem.BLL
                 return results.ToList();
             }
         }
-
+        [DataObjectMethod(DataObjectMethodType.Select,false)]
         public List<Product> Products_GetByCategories(int categoryid)
         {
             using (var context = new NorthwindContext())
@@ -180,6 +182,7 @@ namespace NorthwindSystem.BLL
             }
         }
 
+        [DataObjectMethod(DataObjectMethodType.Select,false)]
         public List<Product> Products_GetByCategoryAndName(int category, string partialname)
         {
             using (var context = new NorthwindContext())

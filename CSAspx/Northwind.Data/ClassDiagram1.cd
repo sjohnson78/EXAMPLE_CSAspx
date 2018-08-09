@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Northwind.Data.Entities.Category">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAgAAAAAAAAAAAAACAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Entities.Product">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>MEAAAAACAAAAAAAAAAAAQAEAAAEAAAAAACAAAAgoAAA=</HashCode>
+      <FileName>Entities\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Entities.Region">
+    <Position X="4.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Region.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Entities.Supplier">
+    <Position X="0.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAgAAAAAAIIAAgAAAAAAIAAAASACACIEAAAAA=</HashCode>
+      <FileName>Entities\Supplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Entities.Territory">
+    <Position X="4.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Territory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Views.EmployeeOfTerritory">
+    <Position X="9.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEEAIAAAAIAIIAAAAAAAAAAAAQACAAAAAAAAAAg=</HashCode>
+      <FileName>Views\EmployeeOfTerritory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Northwind.Data.Views.SupplierCategories">
+    <Position X="9.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\SupplierCategories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
